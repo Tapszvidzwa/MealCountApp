@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MealCount</string>
+    <string name="reset">Reset</string>
+    <string name="Count">Count</string>
+</resources>
