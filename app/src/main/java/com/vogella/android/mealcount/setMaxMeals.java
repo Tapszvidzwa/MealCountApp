@@ -46,6 +46,7 @@ public class setMaxMeals extends AppCompatActivity {
                     editor.commit();
                     Toast.makeText(setMaxMeals.this, "Count has been reset", Toast.LENGTH_SHORT).show();
                     finish();
+
                 }
             }
         });
