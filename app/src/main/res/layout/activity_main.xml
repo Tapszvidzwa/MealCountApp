@@ -11,11 +11,22 @@
     android:background="@drawable/bg"
     tools:context="com.vogella.android.mealcount.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Set Maximum"
+        android:textColor="@color/white"
+        android:id="@+id/setMaximum"
+        android:background="@drawable/reset_button"
+        android:paddingTop="2dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
 <Button
-
-
+    android:layout_below="@id/setMaximum"
     android:layout_width="150dp"
-    android:layout_height="100dp"
+    android:layout_height="80dp"
     android:text="@string/reset"
     android:textColor="@color/white"
     android:id="@+id/reset"
