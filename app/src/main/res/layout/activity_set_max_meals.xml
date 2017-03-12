@@ -9,16 +9,18 @@
 
     <TextView
         android:id="@+id/maxMealsTextView"
-        android:layout_width="315dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:text="Enter Maximum Meals/Week"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="32dp"
-        tools:textSize="24sp" />
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        />
 
 
     <EditText
+        android:inputType="number"
+        android:gravity="center"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_below="@id/setMaximum"
@@ -28,14 +30,14 @@
         android:background="@color/white"
         android:ems="10"
         android:hint="Enter here"
-        android:inputType="textPersonName"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="121dp"
         tools:layout_editor_absoluteY="108dp" />
 
     <Button
         android:id="@+id/set"
-        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:background="@color/red"
         android:text="SET"
